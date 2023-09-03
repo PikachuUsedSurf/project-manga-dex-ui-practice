@@ -16,7 +16,7 @@ export const tags = [
 
 const Tags = () => {
     return (
-        <div className="inline-flex gap-2 p-2">
+        <div className="inline-flex gap-2 mt-2">
             {tags.map((item) => (
                 <div key={item.label} className=" bg-slate-600 p-2 rounded text-white">
                     {item.label}

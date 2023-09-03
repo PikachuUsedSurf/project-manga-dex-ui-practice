@@ -1,12 +1,14 @@
+import { Latest } from "@/components/Latest";
 import Navbar from "@/components/Navbar";
 import Title from "@/components/Title";
-import Link from "next/link";
+
 
 export default function page() {
   return (
       <>
       <Navbar />
       <Title />
+      <Latest />
       </>
   )
 

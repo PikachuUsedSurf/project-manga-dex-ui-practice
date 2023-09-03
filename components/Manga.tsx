@@ -1,3 +1,5 @@
+import Author from "./Author"
+import Description from "./Description"
 import Tags from "./Tags"
 
 function Manga() {
@@ -8,8 +10,8 @@ function Manga() {
                 Ore no Isekai Boukensha Seikatsu ga Houkai ni Kiki
                 na Ken ni Tsuite</h1>
             <Tags />
-            <p>Description</p>
-            <h2>Author</h2>
+            <Description />
+            <Author />
         </div>        
     )
 }

@@ -14,8 +14,8 @@ export default function LatestMangaItem() {
                         <h1>Vol.4 Ch.980</h1>
                         <h1><GiSpellBook /></h1>
                     </div>
-                    <div>
-                        <h1><GiCutDiamond />scangroup</h1>
+                    <div className={'flex text-white justify-between'}>
+                        <h1 className={'flex items-center gap-2'}><GiCutDiamond />scangroup</h1>
                         <h1>time</h1>
                     </div>
                 </div>

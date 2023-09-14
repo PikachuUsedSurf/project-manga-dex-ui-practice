@@ -3,10 +3,10 @@ import {    GiSpellBook, GiCutDiamond } from 'react-icons/gi'
 
 export default function LatestMangaItem() {
     return (
-        <div>
+        <div className=" w-fit">
             <div className="flex gap-2">
                 <div className="">
-                    <Image src={"/cover.jpg"} height={200} width={200} alt={"cover image"} className="rounded-lg h-40 w-auto object-cover" /> 
+                    <Image src={"/cover1.jpg"} height={200} width={200} alt={"cover image"} className="rounded-lg h-40 w-auto object-cover" /> 
                 </div>
                 <div className=" grid-cols-3">
                     <h1 className="text-white font-semibold text-2xl">Saikin Haitta Shiro Madoushi ga Party Crusher</h1>

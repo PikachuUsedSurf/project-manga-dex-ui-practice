@@ -4,7 +4,7 @@ function Coverbg() {
     return (
         <div>
             <Image
-            src="/cover.jpg"
+            src="/cover1.jpg"
             alt="Landscape picture"
             width={200}
             height={200}
